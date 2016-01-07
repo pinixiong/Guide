@@ -22,7 +22,7 @@ public class Guide extends LinearLayout {
 	}
 	
 	public interface OnColumnClickListener{
-		public void OnColumnClick(int position);
+		void OnColumnClick(int position);
 	}
 	
 	public void setOnColumnClickListener(OnColumnClickListener l){
@@ -96,7 +96,4 @@ public class Guide extends LinearLayout {
 		this.columnNames = columnNames;
 	}
 
-	public void setIsme(int isme) {
-		this.isme = isme;
-	}
 }
